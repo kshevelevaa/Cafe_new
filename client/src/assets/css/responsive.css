@@ -1,0 +1,1748 @@
+/*----------------------max-width 1400px----------------------*/
+
+@media screen and (max-width: 1400px){
+
+	.banner-content{
+		padding: 100px 0px;
+	}
+
+	.slider.style-2 .banner-content{
+		padding: 180px 0 120px 0;
+	}
+
+	.banner-content [class^="flaticon-"]:before, 
+	[class*=" flaticon-"]:before, 
+	[class^="flaticon-"]:after, 
+	[class*=" flaticon-"]:after{
+		font-size: 80px;
+	}
+
+	.banner-content h2{
+		font-size: 60px;
+		margin-bottom: 10px;
+	}
+
+	.banner-content h3{
+		font-size: 28px;
+		margin-bottom: 30px;
+	}
+
+	.banner-content p{
+		width: 600px;
+		margin: 0 auto 60px auto;
+	}
+
+	.service{
+		background-size: 23%;
+	}
+
+	.cook-team{
+		background-size: 26%;
+	}
+
+	.food-menu,
+	.our-service,
+	.breakfast-menu{
+		background-position: -11% 100%, 109% 0%;
+		background-size: 17%;
+	}
+
+	.latest-blog{
+		background-size: 34%;
+		background-position: 100% 0%, -10% 100%;
+	}
+
+	.branches{
+		background-size: 30%;
+	}
+
+	.style-2 .banner-content {
+    	padding: 210px 0px 180px 0;
+	}
+
+	.about-resturent{
+		background-position: -20% 142%;
+	}
+
+	.food-gallery{
+		background-size: 25%,45%;
+	}
+
+	.pricing{
+		background-position: -28% 0, top right;
+		background-size: auto, 17%;
+	}
+
+	.about-resturent.style-3{
+		background-image: none,url(../images/background-images/bg14.jpg);
+		background-repeat: no-repeat;
+		background-position: bottom left, 112% 0;
+		background-size: 22%;
+	}
+
+	.service-3,
+	.dinner-menu{
+		background-position: 113% 0,-24% 150%;
+	}
+
+	.food-menu-3{
+		background-size: 20%;
+	}
+
+	.cook-team.style-2{
+		background-position: top right, -14% 108%;
+	}
+
+	.banner{
+		background-position: right;
+	}
+
+	.dinner-menu.style-2{
+		background-size: 40%;
+	}
+
+	.reservation.style-3{
+		background-position: -20% 100%, 140% -19%;
+	}
+
+	.error{	
+		background-size: 30%
+	}
+}
+
+/*----------------------max-width 1199px----------------------*/
+
+@media screen and (max-width: 1199px){
+	
+	.header-top-left{
+		display: none;
+	}
+
+	.header-top-right{
+		float: none;
+	}
+
+	.header-top .social-profiles{
+		float: left;
+		padding: 13px 0;
+	}
+
+	.book-table{
+		float: right;
+	}
+
+	.navbar-nav{
+		margin: 0;
+	}
+
+	.navbar-nav>li>a{
+		padding: 18px 20px;
+	}
+
+	.caret{
+		right: 8px;
+	}
+
+	.banner-content [class^="flaticon-"]:before, 
+	[class*=" flaticon-"]:before, 
+	[class^="flaticon-"]:after, 
+	[class*=" flaticon-"]:after{
+		font-size: 70px;
+	}
+
+	.banner-content h2{
+		font-size: 54px;
+	}
+
+	.banner-content h3{
+		font-size: 26px;
+	}
+
+	.banner-content p{
+		margin: 0 auto 40px auto;
+	}
+
+	.service-item-icon {
+    	width: 70px;
+    	height: 70px;
+	}
+
+	.service-item-icon [class^="flaticon-"]:before, 
+	[class*=" flaticon-"]:before, [class^="flaticon-"]:after, 
+	[class*=" flaticon-"]:after{
+		line-height: 70px;
+		font-size: 30px;
+	}
+
+	.style-2 .navbar-nav>li>a{
+		padding: 0 10px;
+	}
+
+	.style-2 .main-menu .navbar-brand{
+		text-align: left;
+		width: auto;
+		margin-right: 30px;
+	}
+
+	.about-resturent-content {
+    	width: 66%;
+	}
+
+	#bg-video {
+    	height: 600px;
+	}
+
+	.border-s{
+		display: none;
+	}
+
+	.sl-item-icon1{
+		right: -80px;
+	}
+
+	.sl-item-icon2{
+		right: -80px;
+	}
+
+	.sr-item-icon1{
+		left: -80px;
+	}
+
+	.sr-item-icon2{
+		left: -80px;
+	}
+
+	.our-service-item-des{
+		width: 100%;
+	}
+
+	.style-3 .search-box {
+	    width: 200px;
+	}
+
+	.style-3 .search-box .search-form {
+	    width: auto;
+	}
+
+	.style-3 .search-box .search-form input {
+	    border: none;
+	    border-radius: 0;
+	    background-color: #ffb902;
+	    padding: 15px 20px;
+	    color: #ffffff;
+	    position: absolute;
+	    top: 60px;
+	    width: 300px;
+	    right: 30px;
+	    opacity: 0;
+		-webkit-transition: .35s ease-in-out;
+		transition: .35s ease-in-out;
+	}
+
+	.style-3 .search-box.search-form-open .search-form input{
+		opacity: 1;
+		right: 0;
+		z-index: 999;
+	}
+
+	.style-3 .search-box.search-form-open .search-btn .fa-search:before{
+		content: "\f00d"
+	}
+
+	.style-3 .search-form .search-btn{
+		transform: translate(0);
+		top: 20px;
+		right: 0;
+	}
+
+	.about-resturent-content {
+	    width: 60%;
+	}
+
+	.special-event-item{
+		width: 920px;
+	}
+
+	.special-event-img img {
+	    width: auto;
+	    height: 100%;
+	}
+
+	.special-event-content a{
+		font-size: 22px;
+	}
+
+	.special-event-content .meta-post ul li {
+    	font-size: 13px;
+	}
+
+	.table-cell {
+	    width: 70px;
+	    height: 70px;
+	}
+
+	.tab-val {
+	    font-size: 24px;
+	}
+
+	.tab-val {
+	    font-size: 24px;
+	}
+
+	.meta-post.style-2 ul li{
+		padding: 0 10px;
+	}
+
+	.meta-post.style-2 ul li,
+	.meta-post.style-2 ul li a{
+		font-size: 13px;
+	}
+
+	#blog-page .post-content .title a,
+	.post-single .title {
+    	font-size: 24px;
+	}
+
+	.post-item.event-item .post-thumb{
+		float: none;
+		text-align: center;
+	}
+
+	.post-item.event-item .post-content{
+		text-align: center;
+	}
+
+	.isotope-top .button-group{
+		margin-bottom: 30px;	
+	}
+
+	.isotope-top .catagorys{
+		float: left;
+	}
+
+	.product-quantity{
+		margin-bottom: 15px;
+	}
+
+	.product-counter-area .input-box{
+		float: none;
+	}
+
+	.product-review-content .rating-star{
+		float: none;
+	}
+
+	.widget-food-list .food-item-details {
+    	margin-left: 0;
+	}
+
+	.product-review-content h3{
+		margin-bottom: 5px;
+	}
+
+	.style-2 .navbar-nav li.dropdown>a:before, .navbar-nav li.dropdown>a:before{
+		right: 0;
+	}
+
+}
+
+/*----------------------max-width 990px----------------------*/
+
+@media screen and (max-width: 990px){
+
+	.search-form{
+		width: 100%;
+	}
+
+	.navbar-nav>li>a {
+    	padding: 18px 10px;
+	}
+
+	.navbar-nav>li>a {
+    	font-size: 14px;
+	}
+
+	.caret {
+    	right: 2px;
+	}
+
+	.banner-content [class^="flaticon-"]:before, 
+	[class*=" flaticon-"]:before, 
+	[class^="flaticon-"]:after, 
+	[class*=" flaticon-"]:after{
+		font-size: 65px;
+	}
+
+	.banner-content h3 {
+    	font-size: 24px;
+	}
+
+	.banner-content h2 {
+    	font-size: 50px;
+	}
+
+	.banner-content p {
+    	width: 520px;
+    	font-size: 14px;
+	}
+
+	.button {
+    	padding: 10px 40px;
+    	font-size: 14px;
+	}
+
+	.service-items-left,
+	.service-items-right{
+		text-align: center;	
+		padding: 0 100px;
+	}
+
+	.service-item-des{
+		width: 100%;
+	}
+
+	.service-items-left .service-item-icon,
+	.service-items-right .service-item-icon{
+		margin: 0 auto 20px auto;
+	}
+
+	.service-item-icon{
+		float: none!important;
+		width: 80px;
+		height: 80px;
+	}
+
+	.service-img {
+    	padding: 70px 120px;
+	}
+
+	.service-item-icon [class^="flaticon-"]:before, 
+	[class*=" flaticon-"]:before, [class^="flaticon-"]:after, 
+	[class*=" flaticon-"]:after{
+		line-height: 80px;
+		font-size: 36px;
+	}
+
+	.cook-team-member{
+		margin-bottom: 30px;
+	}
+
+	.customer-review-details{
+		width: 70%;
+	}
+
+	.post-item{
+		margin-bottom: 60px;
+	}
+
+	.newslatter-input {
+    	width: 80%;
+	}
+
+	.footer-widget{
+		margin-bottom: 60px;
+	}
+
+	.scroll-top{
+		width: 40px;
+		height: 40px;
+	}
+
+	.scroll-top i {
+    	font-size: 26px;
+    	line-height: 40px;
+	}
+
+	.style-2 .main-menu .navbar-brand {
+    	width: 750px;
+    	text-align: center;
+	}
+
+	.style-2 .main-menu {
+    	padding: 10px 0 15px 0;
+	}
+
+	.style-2 .sub-menu {
+    	top: 36px;
+	}
+
+	.style-2 .search-area .search-form {
+	    top: 36px;
+	}
+
+	.style-2 .cart-content {
+	    top: 40px;
+	}
+
+	.border-s-hide{
+		display: none;
+	}
+
+	.our-service-right,
+	.our-service-left{
+		text-align: center;
+	}
+
+	.our-service-item-icon{
+		position: relative;
+		margin: 0 auto 20px auto;
+	}
+
+	.sl-item-icon1{
+		right: initial;
+	}
+
+	.sl-item-icon2{
+		right: initial;
+	}
+
+	.sr-item-icon1{
+		left: initial;
+	}
+
+	.sr-item-icon2{
+		left: initial;
+	}
+
+	.pricing-table{
+		margin-bottom: 30px;
+	}
+
+	#bg-video {
+	    height: 500px;
+	}
+
+	.video-content {
+	    padding-top: 180px;
+	}
+
+	.logo-area-right{
+		display: none;
+	}
+
+	.logo-area .logo{
+		text-align: center;
+	}
+
+	.style-3 .navbar-nav>li>a {
+	    font-size: 13px;
+	    padding: 20px 12px;
+	}
+
+	.style-3 .about-resturent-content-wrapper img{
+		display: none;
+	}
+
+	.style-3 .about-resturent-content{
+		width: 100%;
+		padding: 100px 15px;
+	}
+
+	.service3-item{
+		margin-bottom: 60px;
+	}
+
+	.dish-row {
+    	margin-bottom: 40px;
+    	overflow: hidden;
+	}
+
+	.style-2 .cooker-img {
+	    width: 200px;
+	    height: 200px;
+	}
+
+	.style-2 .cooker-details h2 {
+    	font-size: 20px;
+	}
+
+	.style-2 .cook-team-member .social-profiles ul li a {
+    	font-size: 14px;
+	}
+
+	.special-event-content a {
+	    font-size: 20px;
+	    margin-bottom: 10px;
+	}
+
+	.special-event-content .meta-post {
+	    margin-bottom: 10px;
+	}
+
+	.table-cell{
+		margin: 0 5px;
+	}
+
+	.special-event-item {
+	    width: 720px;
+	}
+
+	.special-event-content {
+	    padding: 15px 20px 0px 20px;
+	}
+
+	.special-event-content .meta-post ul li {
+    	font-size: 12px;
+    	padding:0 5px;
+	}
+
+	.banner{
+		padding: 50px 0;
+	}
+
+	.banner-text h2{
+		font-size: 42px;
+	}
+
+	.banner-text ul li, .banner-text ul li a{
+		font-size: 14px;
+	}
+
+	.reservation.style-3{
+		background-image: none;
+	}
+
+	.masonary-item{
+		width: 50%
+	}
+
+	.width-2{
+		width: 100%;
+	}
+
+	#main-content{
+		margin:0 0 60px 0;
+	}
+
+	#sidebar{
+		margin: 0;
+	}
+
+	.product-counter-area .input-box {
+	    float: right;
+	    width: 180px;
+	}
+
+	.add-rating{
+		padding: 11px 20px;
+		width: 50%;
+		float: left;
+	}
+
+	.add-review .button{
+		float: right;
+	}
+
+	.shop-cart>tbody>tr>td.cart-single-item {
+	    padding-left: 10px;
+	}
+
+	.coupon {
+	    float: none;
+	    margin-bottom: 20px;
+	    text-align: center;
+	}
+
+	.checkout {
+	    float: none;
+	    text-align: center;
+	}
+
+	.calculate-shipping{
+		margin-bottom: 50px;
+	}
+
+	.error{
+		background-image: none;
+	}
+
+	.branches-location{
+		background: url(../images/map2.png);
+		background-size: contain;
+		background-position: center top;
+		background-repeat: no-repeat;
+	}
+
+	.location-marker{
+		display: none;
+	}
+
+	.footer-widget .post-item{
+		margin: 0;
+	}
+
+	 .style-3 .navbar-nav li.dropdown>a:before{
+	 	right: 0;
+	 }
+
+}
+
+/*----------------------max-width 860px----------------------*/
+
+@media screen and (max-width: 860px){
+
+	.button-prev{
+		left: 2px;
+	}
+
+	.button-next{
+		right: 2px;
+	}
+
+	.button-next, .button-prev{
+		color: #f5f5f5;
+		background-color: rgba(255,185,2,.9);
+	}
+
+	.customer-review .swiper-container{
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	.service,
+	.cook-team,
+	.food-menu,
+	.latest-blog,
+	.branches,
+	.about-resturent,
+	.our-service{
+		background-image: none;
+	}
+
+	.pricing{
+		background: none, url(../images/background-images/bg13.jpg);
+		background-position: top right;
+    	background-size: 17%;
+    	background-repeat: no-repeat;
+	}
+}
+
+
+/*----------------------max-width 768px----------------------*/
+
+@media screen and (max-width: 767px){
+
+	.navbar-nav>li{
+		display: block;
+		background: #000;
+		text-align: left;
+	    padding: 0 40px;
+	}
+
+	.style-2 .navbar-nav>li{
+		display: block;
+		background: rgba(0,0,0,.8);
+		text-align: left;
+	    padding-left: 50px;
+	}
+
+	.navbar-nav>li a,
+	.style-2 .navbar-nav>li>a,
+	.style-3 .navbar-nav>li>a{
+    	font-size: 16px;
+		color: #ffb902;
+	}
+
+	.navbar-nav .active>a,
+	.style-2 .navbar-nav .active>a,
+	.style-3 .navbar-nav .active>a{
+		color:#ffffff;
+	}
+
+	.style-2.menu-fixed {
+    	top: 0;
+	}
+
+	.navbar-collapse.in{
+		overflow-x: hidden;
+		max-height: 500px;
+	}
+
+	.style-2 .navbar-nav>li:first-child{
+		margin: 0;
+	}
+
+	.style-3 .navbar-nav>li:first-child>a{
+		padding-left: 18px;
+	}
+
+	.style-3 .nav>li>a:focus, #page-3 .nav>li>a:hover {
+    	color: #ffffff;
+	}
+
+	.style-2 .navbar-nav>li>a,
+	.style-3 .navbar-nav>li>a{
+		padding: 18px 20px;
+	}
+
+	.style-2 .navbar-nav,
+	.style-3 .navbar-nav{
+		float: none;
+		margin: 0;
+	}
+
+	.nav>li>a:focus, .nav>li>a:hover{
+		background-color: transparent;
+		color: #ffffff;
+	}
+
+	.dropdown-menu>li,
+	.style-2 .dropdown-menu>li,
+	.style-3 .dropdown-menu>li{
+		border:none;
+		padding: 5px 20px;
+	}
+
+	.dropdown-menu .active-child-menu>a{
+		background-color: transparent;
+		color: #ffffff;
+    	padding-left: 20px;
+	}
+
+	.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+		color: #ffffff;
+		background: transparent;
+	}
+
+	.dropdown-menu>li:first-child{
+		padding-top: 0;
+	}
+
+	.dropdown-menu>li>a{
+		font-size: 14px;
+	}
+
+	.sub-menu{
+		display: none;
+	}
+
+	.header-top{
+		display: none;
+	}
+
+	.logo-search-area{
+		display: none;
+	}
+
+	.navbar-brand{
+		display: inline-block;
+		float: none;
+	}
+
+	.navbar-header{
+		padding: 10px;
+		position: relative;
+		text-align: center;
+	}
+
+	.navbar-toggle{
+		float: left;
+		margin: 7px 0 0 10px;
+		background-color: #ffb902;
+		padding: 8px;
+	}
+
+	.navbar-toggle .icon-bar{
+		background: #ffffff;
+		height: 3px;
+	}
+
+	.dish-item {
+	    padding: 0 120px;
+	}
+
+	.banner-content h3 {
+    	font-size: 22px;
+	}
+
+	.banner-content h2 {
+    	font-size: 38px;
+	}
+
+	.banner-content p {
+    	width: 100%;
+    	font-size: 14px;
+    	padding:0 100px;
+	}
+
+	.service-items-left, .service-items-right {
+    	padding: 0 120px;
+	}
+
+	.service-img {
+    	display: none;
+	}
+
+	.cook-team-member {
+    	margin: 0 120px 30px 120px;
+	}
+
+	.reservation-form{
+		margin: 0;
+	}
+
+	.scroll-top{
+		bottom: 15px;
+	}
+
+	.food-menu-item-wrapper {
+    	margin: 0 10px 40px 10px;
+	}
+
+	.post-item {
+    	padding: 0 120px;
+	}
+
+	.newslatter-input .input-box {
+    	padding: 20px 85px;
+	}
+
+	.newslatter-input .button{
+		padding: 14px 25px;
+	}
+
+	#map {
+    	width: 100%;
+    	height: 300px;
+	}
+
+	.service,
+	.special-dishes .section-overlay,
+	.cook-team,
+	.reservation .section-overlay,
+	.food-menu,
+	.food-menu-2 .section-overlay,
+	.about-resturent-content,
+	.customer-review .section-overlay,
+	.latest-blog,
+	.newslatter .section-overlay,
+	.branches,
+	.pricing,
+	.our-service,
+	.food-gallery{
+		padding: 100px 0;
+	}
+
+	.footer-widget-wrapper {
+    	margin: 0;
+	}
+
+	.search-area{
+		float: right;
+		display: block;
+		width: 30px;
+	}
+
+	.section-head{
+		padding: 0 10px;
+	}
+
+	.style-2 .right.search-area{
+		display: none;
+	}
+
+	.style-2 .main-menu {
+	    padding: 0;
+	}
+
+	.style-2 .cart{
+		display: none;
+	}
+
+	.style-2 .main-menu .navbar-brand {
+    	width: auto;
+    	text-align: center;
+    	float: none;
+    	display: inline-block;
+	}
+
+	.style-2 .search-area .search-form{
+		top: 67px;
+		right: 17px;
+	}
+
+	.style-2 .search-area i{
+		color: #ffffff;
+	}
+
+	.style-2 .navbar-header{
+		box-shadow: 0px 0px 1px rgba(255,255,255,.9);
+	}
+
+	.style-2 .menu-fixed {
+    	top: 0;
+	}
+
+	.style-2 .banner-content {
+    	padding: 160px 0px 140px 0;
+	}
+
+	.about-resturent-content-wrapper{
+		padding:0 10px;
+	}
+
+	.about-resturent-content {
+	    width: 75%;
+	}
+
+	.about-resturent-content-wrapper img {
+	    right: -100px;
+	    bottom: -40px;
+	}
+
+	.header.style-2{
+		background: rgba(0,0,0,.9);
+	}
+
+	.gallery-item{
+		width: 50%;
+		float: left;
+		padding: 0 10px;
+	}
+
+	.food-gallery .button-group2 .button {
+	    font-size: 13px;
+	    padding: 10px 25px;
+	}
+
+	.food-gallery-btn{
+		margin: 0 20px;
+	}
+
+	.our-service-left,
+	.our-service-right{
+		padding:0 150px;
+	}
+
+	.pricing-table{
+		margin: 0 80px 30px 80px;
+	}
+
+	.style-3 .logo-area{
+		display: none;
+	}
+
+	.style-3 .search-box{
+		display: none;
+	}
+
+	.service3-item,
+	.dish-row{
+		padding: 0 100px;
+	}
+
+	.food-menu-3 .element-item{
+		width: 50%;
+	}
+
+	.style-2 .cook-team-member{
+		width:50%;
+		float: left;
+		margin: 0 0 40px 0;
+	}
+
+	.service-3{
+		background-size: 50%;
+	}
+
+	.special-event-item {
+    	width: 90%;
+    	margin: 0 20px;
+    	overflow: hidden;
+	}
+
+	.special-event-content {
+    	padding: 15px 20px 20px 20px;
+    	width: 100%;
+	}
+
+	.special-event-img{
+		display: none;
+	}
+
+	.food-item.style-2 {
+	    overflow: initial;
+	    width: 50%;
+	    float: left;
+	    padding: 0 15px;
+	}
+
+	.food-gallery .button-group2 .button,
+	.food-gallery .button-group3 .button{
+		margin-bottom: 10px;
+	}
+
+	#main-content .post-item{
+		padding: 0;
+	}
+
+	.meta-post .post-tag{
+		display: none;
+	}
+
+	.meta-post.style-2 ul li,
+	.meta-post.style-2 ul li a{
+		font-size: 14px;
+	}
+
+	.widget .post-item.style-2{
+		margin-bottom: 0;
+	}
+
+	.author-img {
+    	width: 100px;
+    	height: 100px;
+	}
+
+	.author-details {
+    	margin-left: 120px;
+	}
+
+	.contact-page-map #map{
+		width: 100%;
+		height: 400px;
+	}
+
+	.catagory-item select{
+		margin: 0 35px 0px 5px;
+	}
+
+	.button-group .button{
+		margin-bottom: 10px;
+	}
+
+	.product-preview{
+		padding: 0 100px;
+	}
+
+	.nav-tabs>li>a{
+		padding: 18px 20px;
+	}
+
+	.nav-tabs {
+    	width: 100%;
+	}
+
+	.nav-tabs>li{
+		display: inline-block;
+	}
+
+	.tab-content {
+    	width: 100%;
+	}
+
+	.product-preview-img {
+	    margin-bottom: 30px;
+	}
+
+	.shop-cart>thead>tr>th.cart-single-item {
+	    min-width: 350px;
+	}
+
+	.shop-cart>thead>tr>th.cart-price {
+	    min-width: 120px;
+	}
+
+	.shop-cart>thead>tr>th.cart-quantity {
+    	width: 25%;
+    	min-width: 180px;
+	}
+
+	.shop-cart>thead>tr>th.cart-total {
+	    width: 15%;
+	    min-width: 150px;
+	}
+
+	.shop-cart>thead>tr>th.cart-total {
+    	min-width: 80px;
+	}
+
+	.shop-cart .cart-item-remove a{
+		margin: 0 auto;
+	}
+
+	.coupon-checkout{
+		margin: 0 10px 50px 10px; 
+		padding: 20px 10px;
+	}
+
+	.shipping-totalprice{
+		padding: 0 10px;
+	}
+
+	.error-top img{
+		max-width: 100%;
+		padding: 0 20px;
+	}
+
+	.error p{
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	.error h3{
+		padding: 0 10px;
+	}
+
+	.style-1.menu-fixed .navbar-brand{
+		display: inline-block;
+		padding: 0;
+	}
+
+	.dropdown .dropdown-menu{
+		visibility: visible;
+		opacity: 1;
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none
+	}
+}
+
+@media screen and (min-width: 769px){
+	.navbar-nav li.dropdown:hover>ul.sub-menu{
+		visibility: visible;
+		transform: translateX(0px);
+		-webkit-transform: translateX(0px);
+		-ms-transform: translateX(0px);
+		opacity: 1;
+	}
+
+	.sub-menu{
+		display: block;
+	    visibility: hidden;
+	    opacity: 0;
+	    position: absolute;
+	    z-index: 999;
+	    transform: translateX(-10px);
+	    -webkit-transform: translateX(-10px);
+	    -ms-transform: translateX(-10px);
+	    margin: 0;
+	    padding: 0;
+	    min-width: 220px;
+	    border-radius: 0;
+	    border: none;
+	    top: 100%;
+	    left: 0;
+	    box-shadow: 0px 0px 14px rgba(212,212,212,.58);
+	    -webkit-transition: .5s ease-in-out;
+	    transition: .5s ease-in-out;
+	}
+
+	.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+		background: #ffb902;
+		color: #000;
+	}
+}
+
+/*----------------------max-width 640px----------------------*/
+
+@media screen and (max-width: 640px){
+
+	.carousel-control span {
+	    line-height: 32px;
+	    font-size: 20px;
+	}
+
+	.carousel-control {
+	    width: 32px;
+	    height: 32px;
+	}
+
+	.banner-content p {
+		padding: 0;
+		margin-bottom: 20px;
+	}
+
+	.banner-content h3 {
+    	font-size: 20px;
+    	margin-bottom: 20px;
+	}
+
+	.banner-content h2 {
+    	font-size: 34px;
+	}
+
+	.button {
+    	padding: 10px 30px;
+    	font-size: 12px;
+	}
+
+	.section-head p{
+		width: 100%;
+		padding: 0 ;
+	}
+
+	.section-head h2,
+	.section-head [class^="flaticon-"]:before, 
+	[class*=" flaticon-"]:before, 
+	[class^="flaticon-"]:after, 
+	[class*=" flaticon-"]:after {
+    	margin-bottom: 10px;
+    	font-size: 48px;
+	}
+
+	.service-items-left, .service-items-right, .dish-item {
+    	padding: 0 80px;
+	}
+
+	.cook-team-member {
+    	margin: 0 80px 30px 80px;
+	}
+
+	.post-item {
+    	padding: 0 80px;
+	}
+
+	.banner-content {
+    	padding: 80px 15px;
+	}
+
+	.food-menu .button-group .button{
+		font-size: 12px;
+		padding: 10px 25px;
+		margin: 0 2px;
+	}
+
+	.customer-img {
+    	width: 80px;
+    	height: 80px;
+    	transform: translateY(90%);
+	}
+
+	.newslatter-input .button {
+    	padding: 14px 15px;
+	}
+
+	.newslatter-input {
+    	width: 90%;
+	}
+
+	.scroll-top {
+    	width: 30px;
+    	height: 30px;
+	}
+
+	.scroll-top i {
+    	font-size: 24px;
+    	line-height: 30px;
+	}
+
+	.style-2 .banner-content {
+	    padding: 140px 50px 120px 50px;
+	}
+
+	.style-2 .banner-content h3 {
+    	font-size: 26px;
+	}
+
+	.style-2 .banner-content h2 {
+    	font-size: 42px;
+	}
+
+	.style-2 .banner-content [class^="flaticon-"]:before, 
+	[class*=" flaticon-"]:before, 
+	[class^="flaticon-"]:after, 
+	[class*=" flaticon-"]:after{
+		font-size: 75px;
+	}
+
+	.about-resturent-content-wrapper img{
+		display: none;
+	}
+
+	.about-resturent-content{
+		width: 100%;
+	}
+
+	.our-service-left, .our-service-right {
+    	padding: 0 80px;
+	}
+
+	.service3-item,
+	.dish-row{
+		padding: 0 80px;
+	}
+
+	.tagandshare .social-profiles {
+	    float: none;
+	}
+
+	.tags{
+		margin-bottom: 10px;
+		float: none;
+	}
+
+	#event-single-page .post-single .speaker-img{
+		display: none;
+	}
+
+	.meta-post.style-3 .speaker{
+		display: none;
+	}
+
+	.meta-post.style-3 ul{
+		overflow: hidden;
+	}
+
+	.product-preview {
+    	padding: 0 60px;
+	}
+
+}
+
+
+/*----------------------max-width 480px----------------------*/
+
+@media screen and (max-width: 480px){
+
+	.banner-content h2 {
+    	font-size: 32px;
+	}
+
+	.banner-content h3 {
+    	font-size: 18px;
+    	margin-bottom: 15px;
+	}
+
+	.service-items-left, .service-items-right, .dish-item{
+    	margin: 0 -15px;
+    	padding: 0 15px;
+	}
+
+	.cook-team-member {
+    	margin: 0 15px 30px 15px;
+	}
+
+	.post-item {
+    	padding: 0 15px;
+	}
+
+	.button-prev {
+    	left: 15px;
+	}
+
+	.button-next {
+	    right: 15px;
+	}
+
+	.food-menu .button-group .button {
+    	font-size: 12px;
+    	padding: 8px 10px;
+    	margin: 0 2px;
+	}
+
+	.customer-img {
+    	transform: translateY(94px);
+	}
+
+	.customer-review-details {
+    	margin-left: 20px;
+	}
+
+	.carousel-control {
+    	display: none;
+	}
+
+	.food-menu-item-wrapper {
+    	margin: 0 0px 40px 0px;
+	}
+
+	.newslatter-input i{
+		display: none;
+	}
+
+	.newslatter-input .input-box {
+    	padding: 20px;
+	}
+
+	.style-2 .carousel-control {
+    	display: block;
+	}
+
+	.style-2 .banner-content {
+	    padding: 120px 30px 100px 30px;
+	}
+
+	.food-menu-2 .button-group .button{
+		padding: 0 10px;
+	}
+
+	.pricing-table {
+    	margin: 0 20px 30px 20px;
+	}
+
+	.our-service-left, .our-service-right{
+		padding: 0 20px;
+	}
+
+	#bg-video{
+		height: 400px;
+	}
+
+	.video-content {
+	    padding-top: 130px;
+	}
+
+	#bg-video h2 {
+    	font-size: 36px;
+	}
+
+	.gallery-item {
+    	width: 100%;
+	}
+
+	.food-gallery .button-group2 .button{
+		margin-bottom: 10px;
+	}
+
+	.about-resturent-content h2{
+		font-size: 40px;
+	}
+
+	.service3-item,
+	.dish-row{
+		padding: 0 10px;
+	}
+
+	.food-menu-3 .element-item {
+    	width: 100%;
+	}
+
+	.food-menu-3 .button-group .button{
+		margin-bottom: 10px;
+	}
+
+	.style-2 .cook-team-member{
+		width: 100%;
+	}
+
+	.customer-review-details{
+		padding: 15px;
+	}
+
+	.style-3 .about-resturent-content{
+		padding: 100px 10px;
+	}
+
+	.today-special-dishes-wrapper{
+		margin: 0;
+	}
+
+	.button-group .button{
+		font-size: 12px;
+	    padding: 8px 20px;
+	}
+
+	.food-item.style-2{
+		float: none;
+		margin: 0 auto;
+		width:100%;
+	}
+
+	.masonary-item{
+		height: 200px;
+	}
+
+	.height-2{
+		height: 400px;
+	}
+
+	.meta-post.style-2 ul li, .meta-post.style-2 ul li a{
+		margin-bottom: 8px;
+	}
+
+	.author-img {
+    	float: none;
+    	margin-bottom: 20px;
+	}
+
+	.author-details {
+    	margin:0;
+	}
+
+	.profile-image {
+    	display: none;
+	}
+
+
+	.post-single-content-images-item {
+    	width: 100%;
+	}
+
+	.content-box-inner {
+    	overflow: hidden;
+    	padding: 25px 15px;
+	}
+
+	.speaker{
+		float: none;
+	}
+
+	.speaker-img{
+		display: none;
+	}
+
+	.speaker-name {
+    	display: block;
+	}
+
+	.event-btn{
+		float: none;
+	}
+
+	.post-content{
+		padding: 10px 25px;
+	}
+
+	.post-item.event-item .post-content .title a{
+		font-size: 20px;
+		line-height: 1.5;
+	}
+
+	.post-item.event-item .meta-post ul li{
+		margin-bottom: 5px;
+	}
+
+	.product-preview {
+    	padding: 0;
+	}
+
+	.nav-tabs>li>a {
+    	padding: 10px 15px;
+    	font-size: 14px;
+	}
+
+	.add-rating{
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	.add-review .button{
+		float: none;
+	}
+
+	.product-counter-area .input-box {
+    	float: none;
+    	width: 100%;
+	}
+
+	.checkout .button{
+		margin-bottom: 20px;
+	}
+
+	.coupon{
+		overflow: hidden;
+	}
+
+	.coupon .input-box{
+		padding: 9px 0px 9px 10px;
+		width: 50%;
+		float: left;
+	}
+
+	.coupon .button{
+		padding: 7px 10px 9px 10px;
+		width: 50%;
+		float: left;
+	}
+
+	.total-price ul li{
+		padding: 9px 15px;
+	}
+
+}
+
+
+/*----------------------max-width 360px----------------------*/
+
+@media screen and (max-width: 360px){
+	
+	.banner-content h2 {
+	    font-size: 26px;
+	}
+
+	.banner-content p{
+		font-size: 12px;
+	}
+
+	.section-head h2{
+		font-size: 36px;
+	}
+
+	.section-head p {
+    	font-size: 14px;
+	}
+
+	.service-items-left, .service-items-right, .dish-item {
+    	margin: 0;
+    	padding: 0 15px;
+	}
+
+	.food-item{
+		margin: 0 -10px 30px -10px;
+	}
+
+	.customer-review{
+		display: none;
+	}
+
+	.latest-blog{
+		background-color: #fafafa;
+	}
+
+	.post-content .title a {
+    	font-size: 20px;
+	}
+
+	.banner-content p{
+		display: none;
+	}
+
+	.style-2 .banner-content h3 {
+	    font-size: 20px;
+	}
+
+	.style-2 .banner-content h2 {
+	    font-size: 30px;
+	    margin-bottom: 20px;
+	}
+
+	#bg-video h2 {
+	    font-size: 28px;
+	}
+
+	.reservation .section-head h2 {
+	    font-size: 30px;
+	}
+
+	.our-service-left, .our-service-right {
+	    padding: 0 10px;
+	}
+
+	.pricing-table {
+	    margin: 0 10px 30px 10px;
+	}
+
+	.special-event{
+		display: none;
+	}
+
+	.cook-team.style-2{
+		background-color: #fafafa;
+		background-image: none;
+	}
+
+	.masonary-item{
+		height: auto;
+		width: 100%;
+	}
+
+	.add-rating{
+		width: 100%;
+	}
+}

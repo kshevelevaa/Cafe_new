@@ -1,0 +1,103 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 09/10/2016 09:07
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-brindis-with-wine-glasses:before { content: "\f100"; }
+.flaticon-chef:before { content: "\f101"; }
+.flaticon-cocktail-glass-with-lemon-slice-on-the-border:before { content: "\f102"; }
+.flaticon-cooker:before { content: "\f103"; }
+.flaticon-cup-of-hot-chocolate:before { content: "\f104"; }
+.flaticon-cutlery:before { content: "\f105"; }
+.flaticon-dj:before { content: "\f106"; }
+.flaticon-drinking:before { content: "\f107"; }
+.flaticon-fireworks:before { content: "\f108"; }
+.flaticon-food:before { content: "\f109"; }
+.flaticon-food-1:before { content: "\f10a"; }
+.flaticon-food-2:before { content: "\f10b"; }
+.flaticon-food-3:before { content: "\f10c"; }
+.flaticon-food-4:before { content: "\f10d"; }
+.flaticon-food-5:before { content: "\f10e"; }
+.flaticon-food-6:before { content: "\f10f"; }
+.flaticon-food-7:before { content: "\f110"; }
+.flaticon-glass-and-bottle-of-wine:before { content: "\f111"; }
+.flaticon-hamburger:before { content: "\f112"; }
+.flaticon-hot-coffee-cup-with-hearts:before { content: "\f113"; }
+.flaticon-interlocking-rings:before { content: "\f114"; }
+.flaticon-opened-email-envelope:before { content: "\f115"; }
+.flaticon-pasta:before { content: "\f116"; }
+.flaticon-payoneer-logo:before { content: "\f117"; }
+.flaticon-paypal-logo:before { content: "\f118"; }
+.flaticon-phone-call:before { content: "\f119"; }
+.flaticon-placeholder:before { content: "\f11a"; }
+.flaticon-rice-bowl:before { content: "\f11b"; }
+.flaticon-signs:before { content: "\f11c"; }
+.flaticon-smartphone:before { content: "\f11d"; }
+.flaticon-time-is-running:before { content: "\f11e"; }
+.flaticon-visa-pay-logo:before { content: "\f11f"; }
+    
+    $font-Flaticon-brindis-with-wine-glasses: "\f100";
+    $font-Flaticon-chef: "\f101";
+    $font-Flaticon-cocktail-glass-with-lemon-slice-on-the-border: "\f102";
+    $font-Flaticon-cooker: "\f103";
+    $font-Flaticon-cup-of-hot-chocolate: "\f104";
+    $font-Flaticon-cutlery: "\f105";
+    $font-Flaticon-dj: "\f106";
+    $font-Flaticon-drinking: "\f107";
+    $font-Flaticon-fireworks: "\f108";
+    $font-Flaticon-food: "\f109";
+    $font-Flaticon-food-1: "\f10a";
+    $font-Flaticon-food-2: "\f10b";
+    $font-Flaticon-food-3: "\f10c";
+    $font-Flaticon-food-4: "\f10d";
+    $font-Flaticon-food-5: "\f10e";
+    $font-Flaticon-food-6: "\f10f";
+    $font-Flaticon-food-7: "\f110";
+    $font-Flaticon-glass-and-bottle-of-wine: "\f111";
+    $font-Flaticon-hamburger: "\f112";
+    $font-Flaticon-hot-coffee-cup-with-hearts: "\f113";
+    $font-Flaticon-interlocking-rings: "\f114";
+    $font-Flaticon-opened-email-envelope: "\f115";
+    $font-Flaticon-pasta: "\f116";
+    $font-Flaticon-payoneer-logo: "\f117";
+    $font-Flaticon-paypal-logo: "\f118";
+    $font-Flaticon-phone-call: "\f119";
+    $font-Flaticon-placeholder: "\f11a";
+    $font-Flaticon-rice-bowl: "\f11b";
+    $font-Flaticon-signs: "\f11c";
+    $font-Flaticon-smartphone: "\f11d";
+    $font-Flaticon-time-is-running: "\f11e";
+    $font-Flaticon-visa-pay-logo: "\f11f";
