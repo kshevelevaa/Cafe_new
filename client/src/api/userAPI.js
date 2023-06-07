@@ -3,7 +3,7 @@ import axios from "axios";
 export const registration = async ( username, email,phone, password) => {
     return axios({
         method: "POST",
-        url: 'http://localhost:8080/api/auth/register',
+        url: 'https://cafebackend.onrender.com/api/auth/register',
         data: { username, email,phone, password}
     })
 
@@ -13,7 +13,7 @@ export const login = async (username, password) => {
     const {data} = await axios(
         {
             method: "POST",
-            url: 'http://localhost:8080/api/auth/login',
+            url: 'https://cafebackend.onrender.com/api/auth/login',
             data: {username, password}
         }
     )
@@ -30,7 +30,7 @@ export const getToken = () => {
 export const info = async () => {
     return axios({
         method: 'GET',
-        url: `http://localhost:8080/api/auth/info`,
+        url: `https://cafebackend.onrender.com/api/auth/info`,
         headers: {
             'Authorization': 'Bearer ' + getToken()
         }

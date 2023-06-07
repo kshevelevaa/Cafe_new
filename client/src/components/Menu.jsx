@@ -16,7 +16,7 @@ import {changeDishInOrder, currentOrder} from "../api/orderAPI";
 
 export const dishPicture = (dish) => {
     if (dish.image)
-        return "http://localhost:8080/api/images/" + dish.image.id
+        return "https://cafebackend.onrender.com/api/images/" + dish.image.id
     else {
         switch (dish.category) {
             case "DRINK":
